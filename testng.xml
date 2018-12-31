@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+    <listeners>
+        <listener class-name="resources.Listeners"/>
+        <listener class-name="resources.ExtentReporterNG"/>
+    </listeners>
+    <test name="sample test">
+        <classes>
+            <class name="tests.FirstPageTest"/>
+            <class name="tests.HomePageTest"/>
+        </classes>
+    </test>
+</suite>
